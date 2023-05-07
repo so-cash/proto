@@ -4,6 +4,6 @@
     "walletCustodyService": "https://saturn-common.francecentral.cloudapp.azure.com/custody/",
     "walletCustodyUI": "https://saturn-common.francecentral.cloudapp.azure.com/custody/",
     "web3WebSocketUrl": "wss://cacib-saturn-test.francecentral.cloudapp.azure.com:9443/",
-    "blockchainExplorer": "https://ethereum-pocr.github.io/explorer/kerleano"
+    "blockchainExplorer": "https://ethereum-pocr.github.io/explorer/kerleano/"
   }
 }
