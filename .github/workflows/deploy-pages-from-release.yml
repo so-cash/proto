@@ -1,0 +1,32 @@
+name: Expose the so|cash prototype pages
+on:
+  repository_dispatch:
+    types: 
+      - deploy-release
+
+  workflow_dispatch:
+    
+
+jobs:
+  get-pages:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: robinraju/release-downloader@v1.6
+        with: 
+          repository: "saturngroup/cash-on-chain-prototype"
+          fileName: "so-cash-proto-pages"
+          tag: latest
+          token: "${{ secrets.DOWNLOAD_TOKEN }}"
+
+      - name: Extract the files in situ
+        run: |
+          tar xzvf so-cash-proto-pages .
+          rm so-cash-proto-pages
+      - name: Commit and push new version in the current branch
+        run: |
+          git add .
+          git config --global user.email "${{ github.actor }}@runner.org"
+          git config --global user.name "${{ github.actor }}"
+          git diff --cached --exit-code || git commit -m "Updating pages"
+          git push
