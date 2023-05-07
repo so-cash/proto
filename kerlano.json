@@ -1,0 +1,9 @@
+{
+  "application-configuration-variables": {
+    "IOUAddress": "0x702d5CE74c164E7FB4b1876C7C934f25B293beEc",
+    "walletCustodyService": "https://saturn-common.francecentral.cloudapp.azure.com/custody/",
+    "walletCustodyUI": "https://saturn-common.francecentral.cloudapp.azure.com/custody/",
+    "web3WebSocketUrl": "wss://cacib-saturn-test.francecentral.cloudapp.azure.com:9443/",
+    "blockchainExplorer": "https://ethereum-pocr.github.io/explorer/kerleano"
+  }
+}
