@@ -1,0 +1,7 @@
+{
+  "IOUAddress": "0x9Fd584160Ec3A599B25338a132771cb739362eB5",
+  "walletCustodyService": "https://saturn-dev1.westeurope.cloudapp.azure.com/custody",
+  "walletCustodyUI": "https://saturn-dev.azureedge.net/custody",
+  "web3WebSocketUrl": "wss://kovan.infura.io/ws/v3/47d9d8ff3dd3445f87479ba5ae581f7e",
+  "blockchainExplorer": "https://kovan.etherscan.io"
+}

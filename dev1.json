@@ -1,0 +1,16 @@
+{
+  "bank-smart-contract-address": "0xB333A5C307c4993aAaF1E0b517e8E854A149D5eb",
+  "application-configuration-variables": {
+    "IOUAddress": "0x7627c93635590FA1496EB636Fb92B853274C0E2c",
+    "walletCustodyService": "https://saturn-dev1.westeurope.cloudapp.azure.com/custody",
+    "walletCustodyUI": "https://saturn-dev.azureedge.net/custody",
+    "web3WebSocketUrl": "ws://localhost:7545"
+  },
+  "bank-visited-wallets": [
+    "0x06b66c55eac49e933d02a144df79ece0d7b01cd6",
+    "0x00b5992c0666db7f4ed1d2119410be8947c56f57"
+  ],
+  "bank-linked-banks-registered": [
+    "0x651653755E8CbaF3B6F7155C0EC3Ca09Fa6eDF6b"
+  ]
+}

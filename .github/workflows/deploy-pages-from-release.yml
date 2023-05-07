@@ -28,5 +28,5 @@ jobs:
           git add .
           git config --global user.email "${{ github.actor }}@runner.org"
           git config --global user.name "${{ github.actor }}"
-          git diff --cached --exit-code || git commit -m "Updating pages"
+          git diff --cached --exit-code -s || git commit -m "Updating pages"
           git push
